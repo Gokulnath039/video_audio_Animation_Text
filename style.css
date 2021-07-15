@@ -1,0 +1,54 @@
+body{
+	background-image: url("pic.jfif");
+    background-size: cover;
+}
+sound{
+    width=100px:
+}
+div.aniv {
+    width: 1000px;
+    height: 200px;
+    background-color:lightblue;
+    position: relative;
+    animation-name: examples;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+    @keyframes examples {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; right:200px;}
+        75%  {background-color:lightgreen; left:0px; right:200px;}
+        100% {background-color:red; left:0px; right:0px;}
+    }
+.video{
+    width: 500px;
+    height: 500px;
+}
+div.ani {
+    width: 1000px;
+    height: 200px;
+    background-color:lightblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; right:200px;}
+        75%  {background-color:lightgreen; left:0px; right:200px;}
+        100% {background-color:red; left:0px; right:0px;}
+    }
+
+
+}
